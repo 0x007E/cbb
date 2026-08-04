@@ -131,13 +131,6 @@ outputs:
           sheet: '(Top Drawings)'
           monochrome: true
           mirror: false
-        - layers:
-          - layer: B.Silkscreen
-          - layer: User.Drawings2
-            color: '#c2c2c2'
-          sheet: '(Bottom Drawings)'
-          monochrome: true
-          mirror: true
 
   - name: 'gerbers'
     comment: 'Gerber Files'
